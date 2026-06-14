@@ -1,9 +1,4 @@
-@font-face {
-    font-family: 'Helvetica';
-    src: url('../fonts/Helvetica.woff') format('');
-    font-weight: bold;
-    font-style: bold;
-}
+
 .header {
     display: flex;
     align-items: center;
