@@ -1,0 +1,145 @@
+/* body {
+  margin: 0;
+  font-family: Helvetica;
+  background: #f4f6f9;
+} */
+.wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #3ec6b3, #6dd5c3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ margin: auto;
+}
+/* Top section */
+.top-section {
+  text-align: center;
+  color: white;
+  padding: 50px 20px 120px;
+}
+.top-section h1 {
+  margin-bottom: 10px;
+  font-family:  Helvetica;
+}
+.top-section p {
+  font-size: 14px;
+  opacity: 0.9;
+  font-family:  Helvetica;
+}
+/* Form box */
+.form-box {
+  background: #fff;
+  width: 350px;
+  padding: 30px;
+  border-radius: 12px;
+  margin-top: -80px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.form-box h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: ;
+}
+/* Social icons */
+.socials {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #e0e6ed;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.icon:hover {
+  background: #f1f5f9;
+}
+/* OR text */
+.or {
+  text-align: center;
+  color: #aaa;
+  margin: 15px 0;
+}
+/* Inputs */
+label {
+  font-size: 14px;
+  color: #555;
+  display: block;
+  margin-top: 10px;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #e0e6ed;
+  font-size: 14px;
+  outline: none;
+}
+input::placeholder {
+  color: #b0b8c1;
+}
+/* Toggle */
+.remember {
+  margin-top: 15px;
+}
+.remember input {
+  display: none;
+}
+.remember label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #666;
+}
+.toggle {
+  width: 40px;
+  height: 20px;
+  background: #3ec6b3;
+  border-radius: 20px;
+  margin-right: 10px;
+  position: relative;
+}
+.toggle::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 22px;
+}
+/* Button */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #3ec6b3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #34b2a2;
+}
+/* Bottom text */
+.login-text {
+  text-align: center;
+  margin-top: 15px;
+  color: #8a97a6;
+  font-size: 14px;
+}
+.login-text span {
+  color: #3ec6b3;
+  cursor: pointer;
+}

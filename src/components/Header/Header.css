@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica.woff') format('');
+    font-weight: bold;
+    font-style: bold;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 7rem;
+    background-color: #F8F9FA;
+}
+body {
+    background-color: #F8F9FA;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.logo-img {
+    width: 2rem;
+    height: 2rem;
+}
+.logo-text {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #2D3748;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.betwen {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+.search {
+    width: 17rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid #E2E8F0;
+}
+.signIn-icon-user {
+    color: #2D3748;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 0.6rem;
+    cursor: pointer;
+}
+.input {
+    border: none;
+    outline: none;
+    margin-left: 0.8rem;
+}
+.input::placeholder {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #A0AEC0;
+}
+.signIn {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.signIn-icon-user {
+    color: #718096;
+}
+.active {
+    text-decoration: none;
+    color: #718096;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+ margin-left: -0.5rem;
+}
+.signIn-icon-cog{
+     color: #718096;
+     cursor: pointer;
+}
+.signIn-icon-Bell{
+     color: #718096;
+     cursor: pointer;
+}
+.page-name{
+    display: flex;
+    flex-direction: column;
+ margin-left: 5rem;
+}
+.h4{
+font-family: Helvetica;
+font-weight: 700;
+font-size: 1rem;
+color: #2D3748;
+line-height: 140%;
+letter-spacing: 0%;
+}
+.p-page-name{
+font-family: Helvetica;
+font-weight: 400;
+font-size: 0.7rem;
+color: #718096;
+line-height: 150%;
+letter-spacing: 0%;
+}
+.span_page-name{
+font-family: Helvetica;
+font-weight: 400;
+font-size: 0.8rem;
+color: black;
+line-height: 150%;
+letter-spacing: 0%;
+}

@@ -1,0 +1,116 @@
+/* .Signin{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+} */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7f9;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  margin-left: 10rem;
+  margin-top: -5rem;
+}
+.login-box {
+  width: 350px;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+.title {
+  color: #3ec6b3;
+  margin-bottom: 5px;
+}
+.subtitle {
+  color: #8a97a6;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+label {
+  font-size: 14px;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e0e6ed;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 14px;
+}
+input::placeholder {
+  color: #b0b8c1;
+}
+.options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+/* Toggle switch */
+.remember {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+}
+.remember input {
+  display: none;
+}
+.toggle {
+  width: 40px;
+  height: 20px;
+  background: #3ec6b3;
+  border-radius: 20px;
+  margin-right: 10px;
+  position: relative;
+}
+.toggle::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 22px;
+}
+/* Button */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #3ec6b3;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #34b2a2;
+}
+.signup-text {
+  text-align: center;
+  margin-top: 20px;
+  color: #8a97a6;
+  font-size: 14px;
+}
+.signup-text span {
+  color: #3ec6b3;
+  cursor: pointer;
+}
+#rasim{
+    width: 450px;
+    height: 450px;
+}

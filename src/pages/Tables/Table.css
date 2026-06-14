@@ -1,0 +1,256 @@
+.tables {
+    width: 100%;
+    height: 170vh;
+    padding: 2rem 2rem;
+    margin-left: 2rem;
+    font-family: Helvetica;
+}
+.table-one{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 1rem;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+.table-one>p{
+font-weight: 700;
+font-size: 18px;
+color: #2D3748;
+line-height: 140%;
+letter-spacing: 0%;
+}
+.tkl{
+    display: flex;
+    align-items: center;
+    margin-right: 8.8rem;
+    gap: 8.7rem;
+}
+.tkl>p{
+    font-weight: 700;
+font-size: 10px;
+color: #A0AEC0;
+line-height: 150%;
+letter-spacing: 0%;
+}
+.pek>p{
+       font-weight: 700;
+font-size: 10px;
+color: #A0AEC0;
+line-height: 150%;
+letter-spacing: 0%;
+}
+.tab-name{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border-bottom:  1px solid #E2E8F0;
+    padding: 0.5rem;
+}
+.tab{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    padding: 0.5rem 0rem;
+    justify-content: space-between;
+    border-bottom:  1px solid  #E2E8F0;
+}
+.tab-img{
+    display: flex;
+    align-items: center;
+}
+.tabe-name{
+    display: flex;
+    flex-direction: column;
+}
+.tabe-name>p{
+font-weight: 700;
+font-size: 14px;
+color: #2D3748;
+line-height: 140%;
+letter-spacing: 0%;
+}
+.tabe-name>span{
+font-weight: 400;
+font-size: 14px;
+color: #718096;
+line-height: 140%;
+letter-spacing: 0%;
+}
+.manger{
+    display: flex;
+    flex-direction: column;
+}
+.manger>p{
+font-weight: 700;
+font-size: 14px;
+color: #2D3748;
+line-height: 140%;
+letter-spacing: 0%;
+}
+.manger>span{
+font-weight: 400;
+font-size: 14px;
+color: #718096;
+line-height: 140%;
+letter-spacing: 0%;
+}
+.onlin{
+width: 5rem;
+height: 1.6rem;
+background-color: #48BB78;
+display: flex;
+align-items: center;
+border-radius: 1rem;
+justify-content: center;
+font-weight: 700;
+font-size: 14px;
+color: #FFFFFF;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+}
+.tbs>span{
+font-weight: 700;
+font-size: 14px;
+color: #2D3748;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
+}
+.tbs>strong{
+font-weight: 700;
+font-size: 12px;
+color: v;
+line-height: 150%;
+letter-spacing: 0%;
+}
+.tbs{
+    display: flex;
+    align-items: center;
+    gap: 7.1rem;
+    cursor: pointer;
+}
+.offline{
+    width: 5rem;
+height: 1.6rem;
+background-color: #CBD5E0;
+display: flex;
+align-items: center;
+border-radius: 1rem;
+justify-content: center;
+font-weight: 700;
+font-size: 14px;
+color: #FFFFFF;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+}
+.left-projects2{
+    width: 100%;
+    height: 30rem;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+       box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+
+}
+
+#p2{
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2D3748;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+
+.done2{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.done-p2{
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 14px;
+    color: #A0AEC0;
+    line-height: 140%;
+    letter-spacing: 0%;
+
+}
+
+.names-pr2{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    width: 100%;
+    margin-top: 1rem;
+    border-bottom: 0.5px solid #E2E8F0;
+}
+
+.names-pr2>p{
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 10px;
+    color: #A0AEC0;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
+
+.project-box2{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 2rem;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #E2E8F0;
+
+}
+
+.project-icon2{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.project-icon2>p {
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2D3748;
+    line-height: 140%;
+    letter-spacing: 0%;
+
+
+
+}
+
+.project-box2>strong{
+    font-family: Helvetica;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2D3748;
+    line-height: 140%;
+    letter-spacing: 0%;
+
+}
+
+.progg2{
+    width: 7rem;
+
+
+}
+
+.done-img2{
+    width: 1rem;
+}
